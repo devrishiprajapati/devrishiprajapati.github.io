@@ -69,7 +69,7 @@
             <div class="bg_video">
               <video autoplay loop muted plays-inline class="background-clip" style="width: 100%;">
                 <source src="img/intro-carousel/bg4.mp4" type="video/mp4">
-                "your browser does not support the video tag "
+               
 
               </video>
               
@@ -675,20 +675,20 @@
           <form  id="contactForm" onsubmit="return false">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="firstName" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="firstName" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required/>
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <input class="form-control" name="message" rows="5" id="Data" data-rule="required" data-msg="Please write something for us" placeholder="Message"></input>
+              <input class="form-control" name="message" rows="5" id="Data" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></input>
               <div class="validation"></div>
             </div>
             <div class="text-center" > 
